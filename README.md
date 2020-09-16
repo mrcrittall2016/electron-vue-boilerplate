@@ -26,7 +26,10 @@ npm run serve
 
 ### To run devlopment server within Electron
 
+```
 npm run electron:serve
+
+```
 
 ### Compiles and minifies for production
 
