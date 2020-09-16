@@ -1,9 +1,21 @@
 # Electron_Vue_Boilerplate
 
+
+# Derived from here:
+```
+https://nklayman.github.io/vue-cli-plugin-electron-builder/
+
+```
+
 ## Project setup
 
 ```
+npm install -g @vue/cli
+
+vue add electron-builder
+
 npm install
+
 ```
 
 ### Compiles and hot-reloads for development
@@ -19,7 +31,7 @@ npm run electron:serve
 ### Compiles and minifies for production
 
 ```
-npm run build
+npm run electron:build
 ```
 
 ### Customize configuration
